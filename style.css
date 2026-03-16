@@ -1,0 +1,121 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    text-align: center;
+    box-shadow: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: black;
+}
+
+.card{
+    border-radius: 30% 30% 20% 20%;
+    margin: 5px 550px;
+    height: 700px;
+    width: 450px;
+    background: rgba(255,255,255,0.08);
+    text-align: center;
+
+    box-shadow: 30px 70px 80px rgb(79, 1, 1);
+
+
+
+}
+
+
+
+.card .upper-side{
+    border-radius: 20% 20% 0% 0%;  
+    background:linear-gradient(to right,rgb(144, 0, 0),black);
+    height: 250px;
+    width: 450px;
+}
+
+.card .lower-side{
+
+    transition: 4s;
+    border-radius:  0% 0% 20% 20%; 
+    background:linear-gradient(to left,black,red);
+    height: 450px;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.face-img{
+    background:linear-gradient(to right,rgb(255, 234, 0),rgb(248, 0, 0));
+    padding: 3px;
+    border: 3px black dotted;
+    position: relative;
+    top: 100px;    
+    text-align: justify;
+    border-radius: 150px;
+    height: 200px;
+    width: 200px;
+}
+
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 80px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:400;
+    font-size: 30px;
+
+    background: linear-gradient(to left,red,gold,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.media-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+
+a{
+    text-decoration: none;
+      color:inherit;
+}
+
+
+.link img{
+    padding: 2px;
+    margin: 20px;
+    height: 50px;
+    width: 50px;
+    text-decoration: none;
+
+
+    transition:
+    rotate 3s;
+}
+
+.link p{
+    font-weight: bold;
+    text-decoration:none;
+    transition: 1s;
+
+    background:linear-gradient(to right,white,gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+
+.link img:hover{
+    rotate: 360deg;
+}
+
+
+.profile-ring{
+
+}
